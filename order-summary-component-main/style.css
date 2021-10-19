@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display";
+  background-color: hsl(225, 100%, 94%);
+}
+
+h1 {
+  margin: 30px 0 20px 0;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.container {
+  width: 450px;
+  margin: 5% auto;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px hsl(224, 23%, 55%);
+  background-color: inherit;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.container-order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.hero-img {
+  background-color: none;
+}
+
+.paragraph {
+  margin: 0 60px 20px 60px;
+
+  font-size: 16px;
+  text-align: center;
+
+  color: hsl(224, 23%, 55%);
+}
+
+.plan {
+  display: flex;
+  width: 70%;
+  margin: 15px 0 40px 0;
+}
+
+.plan-price-container {
+  flex: 50%;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.plan-text {
+  font-weight: 700;
+  margin: 3px 0;
+}
+
+.plan-price {
+  color: hsl(224, 23%, 55%);
+}
+
+.plan a {
+  font-size: 12px;
+  font-weight: 700;
+  align-self: center;
+}
+
+.btn {
+  width: 70%;
+  height: 40px;
+  margin: 5px 0;
+
+  border: none;
+  font-size: 13px;
+}
+
+.btn-full {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+
+  font-weight: 600;
+
+  border-radius: 10px;
+
+  box-shadow: 2px 3px 5px hsl(224, 23%, 55%);
+
+  transition: all 0.2s;
+}
+
+.btn-full:hover {
+  background-color: hsl(245, 75%, 42%);
+  cursor: pointer;
+}
+
+.btn-empty {
+  background-color: inherit;
+  font-weight: 600;
+  color: hsl(224, 23%, 55%);
+
+  transition: all 0.2s;
+}
+
+.btn-empty:hover {
+  color: hsl(245, 75%, 52%);
+  cursor: pointer;
+}
+
+.attribution {
+  margin: 10px 0;
+
+  color: hsl(224, 23%, 55%);
+}
