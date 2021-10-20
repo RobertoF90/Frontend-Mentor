@@ -14,8 +14,8 @@ body {
 
   font-family: "Kumbh Sans";
 
-  background-image: url(/profile-card-component-main/images/bg-pattern-top.svg),
-    url(/profile-card-component-main/images/bg-pattern-bottom.svg);
+  background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
   background-position: -50% 50%, 150% -40%;
   background-repeat: no-repeat;
 }
