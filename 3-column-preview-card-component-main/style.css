@@ -71,9 +71,3 @@ button {
 .luxury button {
   color: hsl(179, 100%, 13%);
 }
-
-.attribution {
-  position: fixed;
-  bottom: 15%;
-  left: 39%;
-}
