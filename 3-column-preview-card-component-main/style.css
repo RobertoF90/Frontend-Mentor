@@ -1,0 +1,79 @@
+body {
+  max-width: 1440px;
+  background-color: hsl(0, 0%, 95%);
+
+  font-size: 15px;
+  font-family: "Lexend Deca";
+}
+
+h1 {
+  margin-top: 2rem;
+
+  font-family: "Big Shoulders Display";
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  margin-top: 1.5rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.6;
+}
+
+button {
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  border-radius: 25px;
+
+  margin-top: 4rem;
+  padding: 0.7rem 2.2rem;
+}
+
+.container {
+  width: 63%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  border-radius: 7px;
+  overflow: hidden;
+
+  box-shadow: 0 0 1px #000;
+}
+
+.car {
+  padding: 3.5rem 3.2rem 3.5rem 2.5rem;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.sedans button {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.suvs button {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.luxury button {
+  color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  position: fixed;
+  bottom: 15%;
+  left: 39%;
+}
