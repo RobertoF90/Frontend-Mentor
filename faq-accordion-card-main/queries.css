@@ -1,4 +1,4 @@
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   html {
     font-size: 50%;
   }
@@ -30,6 +30,7 @@
   .faq {
     font-size: 3.5rem;
     margin-top: 2rem;
+    margin-bottom: 0;
   }
 
   body::before {
