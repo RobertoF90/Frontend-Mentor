@@ -52,7 +52,7 @@ body::before {
 .container-questions {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
   padding: 5% 0;
   margin-right: 4rem;
   width: 100%;
