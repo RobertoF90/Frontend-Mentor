@@ -4,7 +4,7 @@
   }
 
   .container {
-    padding: 4rem 0;
+    margin: 4rem 0;
     overflow: visible;
 
     left: 25%;
@@ -29,7 +29,7 @@
 
   .faq {
     font-size: 3.5rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
   }
 
   body::before {
