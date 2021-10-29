@@ -12,19 +12,25 @@
     font-size: 50%;
   }
 
+  body::before {
+    top: -28%;
+    left: 17%;
+    z-index: 999;
+    transform: scale(0.3);
+  }
+
   .container {
     margin: 0 30%;
     overflow: visible;
     flex-direction: column;
+    height: 450px;
   }
 
   .container-questions {
     left: 0;
 
-    padding: 9rem 3rem;
+    padding: 7rem 3rem;
     margin: 0;
-    height: auto;
-    flex: auto;
   }
 
   .img-woman {
@@ -48,10 +54,10 @@
     right: 10%;
   }
 
-  body::before {
-    top: 2%;
-    left: 9%;
-    transform: scale(0.5);
+  .attribution {
+    position: relative;
+    top: -40%;
+    left: -25%;
   }
 }
 
