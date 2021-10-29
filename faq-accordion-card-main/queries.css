@@ -15,6 +15,7 @@
   .container {
     margin: 0 30%;
     overflow: visible;
+    flex-direction: column;
   }
 
   .container-questions {
@@ -22,7 +23,8 @@
 
     padding: 9rem 3rem;
     margin: 0;
-    height: 450px;
+    height: auto;
+    flex: auto;
   }
 
   .img-woman {
@@ -56,6 +58,31 @@
 @media (max-width: 700px) {
   body {
     font-size: 1.2rem;
+  }
+
+  .question::before {
+    right: 5%;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .img-woman {
+    width: 30%;
+    position: fixed;
+    top: 16%;
+    left: 35%;
+
+    padding: 0;
+    filter: drop-shadow(0px 25px 1px hsl(240, 5%, 91%));
+  }
+
+  .faq {
+    font-size: 2rem;
+    margin-top: 1rem;
   }
 
   .question::before {
