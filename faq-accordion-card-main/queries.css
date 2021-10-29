@@ -95,3 +95,9 @@
     right: 5%;
   }
 }
+
+@media (max-height: 800px) {
+  body {
+    margin: 5% 0;
+  }
+}
