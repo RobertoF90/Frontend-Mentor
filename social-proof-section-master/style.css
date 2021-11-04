@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+}
+
+.container {
+  margin: 12rem;
+}
+
+.container-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-text {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  letter-spacing: -3px;
+  line-height: 1;
+
+  font-size: 6rem;
+}
+
+.text {
+  display: inline-block;
+  margin-top: 2.4rem;
+
+  color: hsl(303, 10%, 53%);
+  font-size: 1.9rem;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+.container-rates {
+  width: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+
+  font-size: 1.8rem;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+
+.rate::before {
+  content: "";
+  background-image: url(images/icon-star.svg);
+  background-repeat: space;
+  display: inline-block;
+
+  width: 101px;
+  height: 16px;
+
+  margin-right: 3rem;
+}
+
+.rate {
+  display: inline-block;
+  background-color: hsl(300, 24%, 96%);
+  width: 100%;
+  padding: 2.5rem 4.5rem;
+
+  border-radius: 5px;
+}
+
+.rate:nth-child(1) {
+  margin-left: -10%;
+}
+
+.rate:nth-child(2) {
+  margin-left: -5%;
+}
+
+.container-testimonials {
+  margin-top: 9.6rem;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.testimonial {
+  height: 100%;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 7px;
+  padding: 3rem;
+}
+
+.testimonial:nth-child(2) {
+  margin-top: 2%;
+}
+
+.testimonial:nth-child(3) {
+  margin-top: 4%;
+}
+
+.testimonial-upper {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-img {
+  /* width: 50%; */
+  border-radius: 50%;
+}
+
+.testimonial-name-box {
+  margin-left: 2rem;
+  font-weight: 700;
+}
+
+.testimonial-name {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.2rem;
+}
+
+.testimonial-description {
+  margin-top: 0.5rem;
+  color: hsl(333, 80%, 67%);
+  font-size: 1.2rem;
+}
+
+.testimonial-text {
+  margin-top: 2rem;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
