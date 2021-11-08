@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  font-family: "Poppins";
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(229, 6%, 66%);
+}
+
+.container {
+  margin: 60px;
+}
+
+.top-container {
+  text-align: center;
+}
+
+.top-container p {
+  margin: 20px 0 80px 0;
+}
+
+h1 {
+  letter-spacing: 1px;
+  color: hsl(234, 12%, 34%);
+}
+
+.heading {
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+}
+
+.card-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  row-gap: 24px;
+  column-gap: 24px;
+}
+
+.card:nth-child(1) {
+  border-top: 5px solid hsl(180, 62%, 55%);
+
+  grid-row: span 2;
+}
+
+.card:nth-child(2) {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.card:nth-child(3) {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.card:nth-child(4) {
+  border-top: 5px solid hsl(212, 86%, 64%);
+
+  grid-column: -1 / -2;
+  grid-row: 1/4;
+}
+
+.card {
+  padding: 36px 48px;
+  /* width: 300px; */
+  /* height: 250px; */
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+
+  box-shadow: 0px 20px 30px -15px hsl(229, 6%, 66%);
+}
+
+.card-title {
+  color: hsl(234, 12%, 34%);
+  display: block;
+
+  font-size: 24px;
+}
+
+.card-text {
+  display: block;
+  margin-top: 15px;
+}
+
+.card-icon {
+  margin-top: 40px;
+  width: 80px;
+  height: 80px;
+  align-self: flex-end;
+}
+
+.attribution {
+  padding-top: 50px;
+  margin: 0 50px;
+  text-align: center;
+}
