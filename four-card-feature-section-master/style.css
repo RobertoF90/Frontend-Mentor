@@ -17,10 +17,15 @@ body {
 
 .container {
   margin: 60px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .top-container {
   text-align: center;
+  width: 500px;
 }
 
 .top-container p {

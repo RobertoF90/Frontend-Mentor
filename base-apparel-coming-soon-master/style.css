@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans";
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+}
+
+.left-container {
+  flex: 55%;
+
+  display: flex;
+  flex-direction: column;
+  padding: 4% 11% 5% 10%;
+}
+
+.text-container {
+  padding-right: 15%;
+}
+
+.right-container {
+  background-image: url(images/hero-desktop.jpg);
+  background-size: cover;
+  flex: 40%;
+}
+
+h1 {
+  padding-top: 30%;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  line-height: 1;
+  font-weight: 600;
+
+  color: hsl(0, 6%, 24%);
+}
+
+h1 span {
+  font-weight: 300;
+  color: hsl(0, 36%, 70%);
+
+  /* background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+p {
+  padding: 6% 0 10% 0;
+  line-height: 1.5;
+
+  color: hsl(0, 36%, 70%);
+}
+
+.img-logo {
+  width: max-content;
+  height: fit-content;
+  position: absolute;
+  margin: 3% 0 0 10%;
+}
+
+.img-hero {
+  width: 100%;
+}
+
+form {
+  display: flex;
+}
+
+.input {
+  padding: 4%;
+  width: 100%;
+
+  border: 1px solid hsl(0, 80%, 86%);
+  border-radius: 24px;
+
+  color: hsl(0, 36%, 70%);
+  background-color: unset;
+
+  text-align: left;
+}
+
+input:focus {
+  outline: 2px solid hsl(0, 74%, 74%);
+}
+
+.send {
+  position: relative;
+  left: -12%;
+  padding: 0 8%;
+
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  /* content: url(./images/icon-arrow.svg); */
+
+  border: none;
+  border-radius: 48px;
+
+  flex: 0 0 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 15px 35px hsl(0, 36%, 70%);
+}
+
+.send:hover {
+  background: hsl(0, 80%, 86%);
+  cursor: pointer;
+}
+
+.input:focus ~ .send {
+  margin: -3px 0;
+}
+
+.img-error {
+  position: relative;
+  top: 25%;
+  right: 450%;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.validation {
+  padding: 2% 5%;
+  color: hsl(0, 36%, 70%);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.attribution {
+  padding: 2%;
+}

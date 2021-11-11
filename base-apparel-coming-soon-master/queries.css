@@ -1,0 +1,44 @@
+@media (max-width: 500px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .left-container {
+    text-align: center;
+  }
+
+  .text-container {
+    padding: 0;
+  }
+
+  .right-container {
+    margin-top: 20%;
+    background-image: url(images/hero-mobile.jpg);
+    grid-row: 1 / 1;
+    height: 300px;
+  }
+
+  h1 {
+    padding-top: 15%;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 14px;
+    padding-bottom: 12%;
+  }
+
+  .img-error {
+    top: 20%;
+    right: 250%;
+  }
+
+  .send {
+    left: -20%;
+  }
+
+  .form {
+    margin-left: 50px;
+  }
+}
