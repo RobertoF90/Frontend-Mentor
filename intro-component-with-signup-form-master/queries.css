@@ -1,0 +1,56 @@
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+
+    padding: 15% 8%;
+  }
+
+  .text-box {
+    text-align: center;
+
+    margin-bottom: 15%;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .text-box p {
+    font-size: 15px;
+  }
+
+  .top-box {
+    font-size: 14px;
+
+    margin-bottom: 6%;
+    padding: 5% 15%;
+  }
+
+  .form {
+    padding: 6%;
+    padding-bottom: 28%;
+  }
+
+  .form input {
+    padding: 5% 6%;
+  }
+
+  .form button {
+    padding: 6% 8%;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+  .form p {
+    font-size: 7px;
+    padding: 0 15%;
+  }
+
+  .error-text {
+    left: 40%;
+  }
+
+  .error-icon {
+    padding: 4% 5%;
+  }
+}

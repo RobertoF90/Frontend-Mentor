@@ -1,0 +1,167 @@
+body {
+  background: url(images/bg-intro-desktop.png), hsl(0, 100%, 74%);
+
+  font-family: "poppins";
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+
+  gap: 5%;
+  padding: 5% 13%;
+}
+
+.text-box {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+
+  margin: 0;
+  margin-bottom: 2%;
+}
+
+.text-box p {
+  color: #fff;
+
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.top-box {
+  background-color: hsl(248, 32%, 49%);
+
+  margin-bottom: 4%;
+  padding: 3%;
+
+  border-radius: 12px;
+
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+
+  box-shadow: 1px 5px 1px hsla(249, 10%, 26%, 0.3);
+}
+
+.top-box span {
+  color: hsl(246, 25%, 77%);
+}
+
+.form-box {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  padding: 7%;
+  padding-bottom: 8%;
+
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 1px 5px 1px hsla(249, 10%, 26%, 0.3);
+}
+
+.form input {
+  border: 1px solid hsl(246, 25%, 77%);
+  border-radius: 3px;
+
+  padding: 3% 6%;
+
+  font-weight: 600;
+
+  flex: 1;
+}
+
+.form-item {
+  padding: 3% 0;
+
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 2%;
+}
+
+.error-icon {
+  position: absolute;
+  align-self: flex-end;
+  padding: 2.5% 5%;
+}
+
+.error-text {
+  position: absolute;
+  bottom: -15%;
+  left: 60%;
+  text-align: end;
+  font-size: 10px;
+  font-style: italic;
+  color: hsl(0, 100%, 74%);
+}
+
+.form input:focus {
+  outline: 1px solid hsl(249, 10%, 26%);
+}
+
+.form button {
+  margin-top: 4%;
+  padding: 3%;
+
+  outline: 2px solid hsl(154, 52%, 50%);
+  border: none;
+  border-radius: 5px;
+
+  background-color: hsl(154, 59%, 51%);
+
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  box-shadow: 0px 5px 1px hsl(154, 52%, 50%);
+}
+
+.form button:hover {
+  cursor: pointer;
+}
+
+.form .terms-services {
+  margin: 0;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+  color: hsl(246, 25%, 77%);
+}
+
+.form .terms-services span {
+  color: hsl(0, 100%, 74%);
+}
+
+.attribution {
+  color: #fff;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: hsl(248, 32%, 49%);
+}
+
+.hidden {
+  display: none;
+}
