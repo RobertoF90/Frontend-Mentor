@@ -1,0 +1,89 @@
+body {
+  font-family: "karla";
+  background-color: hsl(204, 43%, 93%);
+  color: hsl(218, 22%, 67%);
+}
+
+.container {
+  margin: 4rem 22rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px #555;
+}
+
+.description {
+  grid-column: span 2;
+  padding: 1.5rem 3rem 2.5rem 3rem;
+  background-color: #fff;
+}
+
+.description h3 {
+  color: hsl(71, 73%, 54%);
+}
+
+.description p {
+  display: inline-block;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+}
+
+.subscription {
+  padding: 1.5rem 3rem;
+
+  background-color: hsl(179, 62%, 43%);
+  color: hsl(204, 43%, 93%);
+
+  font-weight: 700;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.price span {
+  opacity: 0.5;
+}
+
+.signup {
+  margin-top: 24px;
+
+  background-color: hsl(71, 73%, 54%);
+  text-align: center;
+
+  padding: 1rem;
+  border-radius: 7px;
+  box-shadow: 3px 3px 8px #555;
+}
+
+.signup:hover {
+  cursor: pointer;
+}
+
+.why {
+  padding: 1.5rem 3rem;
+
+  background-color: hsla(174, 62%, 43%, 0.8);
+  color: hsl(204, 43%, 93%);
+}
+
+.why ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why li {
+  padding-top: 0.4rem;
+}
+
+strong {
+  font-size: 30px;
+}

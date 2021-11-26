@@ -1,0 +1,44 @@
+@media (max-width: 500px) {
+  .container {
+    margin: 3rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description {
+    padding: 0 1.5rem 1rem 1.5rem;
+
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+    margin: 1.5rem 0;
+  }
+
+  .description h3 {
+    line-height: 1.4;
+  }
+
+  .description p {
+    line-height: 1.8;
+  }
+
+  .subscription {
+    padding: 1.5rem;
+
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(204, 43%, 93%);
+
+    font-weight: 700;
+  }
+
+  .sub-heading {
+    margin: 0;
+  }
+
+  .why {
+    padding: 1.5rem;
+  }
+}
