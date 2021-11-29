@@ -1,0 +1,43 @@
+@media (max-width: 500px) {
+  .logo {
+    width: 15%;
+  }
+
+  h1 {
+    margin-top: 2rem;
+    font-size: 24px;
+  }
+
+  .top-text {
+    font-size: 14px;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  input {
+    padding: 0.7rem 2.5rem 0.7rem 1rem;
+    width: 80%;
+  }
+
+  button {
+    padding: 0.7rem 7rem;
+  }
+
+  .dash {
+    width: 80%;
+  }
+
+  .error {
+    margin: 0;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    text-align: center;
+    font-style: italic;
+    color: hsl(354, 100%, 66%);
+  }
+}
