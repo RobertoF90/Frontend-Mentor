@@ -80,6 +80,7 @@ button:hover {
   color: hsl(300, 69%, 71%);
 }
 
-.attribution a {
+.attribution a:link,
+.attribution a:visited {
   color: #fff;
 }
