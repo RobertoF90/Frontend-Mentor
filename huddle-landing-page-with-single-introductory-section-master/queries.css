@@ -1,0 +1,67 @@
+@media (max-width: 500px) {
+  html {
+    overflow: hidden;
+  }
+
+  body {
+    background-image: url(./images/bg-mobile.svg);
+    background-size: contain;
+  }
+
+  .logo {
+    padding: 1rem;
+    width: 50%;
+  }
+  .container {
+    flex-direction: column;
+    padding: 1.2rem;
+  }
+
+  .illustration {
+    width: 100%;
+  }
+
+  .text-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    margin-top: 20px;
+
+    font-size: 28px;
+    text-align: center;
+
+    line-height: 1.5;
+  }
+
+  p {
+    font-family: "Open Sans";
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  button {
+    padding: 1rem 2.5rem;
+    margin: 0 3.5rem;
+    font-size: 12px;
+  }
+
+  .icons {
+    justify-content: center;
+
+    gap: 10px;
+    margin-top: 10%;
+    margin-right: 0;
+    font-size: 16px;
+  }
+
+  .icon {
+    padding: 0.5rem;
+  }
+
+  .attribution {
+    margin-top: 50px;
+  }
+}
