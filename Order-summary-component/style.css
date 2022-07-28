@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Red Hat Display';
+  /* background-color: hsl(225, 100%, 94%); */
+}
+
+h1 {
+  margin: 3rem 0 2rem 0;
+  font-weight: 900;
+  font-size: 2.4rem;
+}
+
+.container {
+  width: 45rem;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  overflow: hidden;
+  box-shadow: 5px 5px 5px hsl(224, 23%, 55%);
+  background-color: inherit;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-top-left-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
+
+  border-bottom-left-radius: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+}
+
+.container-order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fff;
+
+  border-bottom-left-radius: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.paragraph {
+  margin: 0 6rem 2rem 6rem;
+
+  font-size: 1.6rem;
+  text-align: center;
+
+  color: hsl(224, 23%, 55%);
+}
+
+.plan {
+  display: flex;
+  width: 70%;
+  margin: 1.5rem 0 4rem 0;
+}
+
+.plan-price-container {
+  flex: 50%;
+  margin-left: 2rem;
+  font-size: 1.4rem;
+}
+
+.plan-text {
+  font-weight: 700;
+  margin: 0.3rem 0;
+}
+
+.plan-price {
+  color: hsl(224, 23%, 55%);
+}
+
+.plan a {
+  font-size: 1.2rem;
+  font-weight: 700;
+  align-self: center;
+}
+
+.btn {
+  width: 70%;
+  height: 4rem;
+  margin: 0.5rem 0;
+
+  border: none;
+  font-size: 1.2rem;
+}
+
+.btn-full {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+
+  font-weight: 600;
+
+  border-radius: 1rem;
+
+  box-shadow: 2px 3px 5px hsl(224, 23%, 55%);
+
+  transition: all 0.2s;
+}
+
+.btn-full:hover {
+  background-color: hsl(245, 75%, 42%);
+  cursor: pointer;
+}
+
+.btn-empty {
+  background-color: inherit;
+  font-weight: 600;
+  color: hsl(224, 23%, 55%);
+
+  transition: all 0.2s;
+}
+
+.btn-empty:hover {
+  color: hsl(245, 75%, 52%);
+  cursor: pointer;
+}
+
+.attribution {
+  width: 100%;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 400px) {
+  html {
+    font-size: 40%;
+  }
+} ;
